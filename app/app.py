@@ -22,7 +22,8 @@ st.sidebar.markdown("### 🎨 Theme")
 
 theme = st.sidebar.radio(
     "Choose Mode",
-    ["Light ☀️", "Dark 🌑"],
+    ["Dark 🌑", "Light ☀️"],
+    index=0,
     key="theme_selector"   # 🔥 THIS FIXES IT
 )
 
